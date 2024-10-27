@@ -4,8 +4,9 @@ Ce projet est un exemple d'application web CRUD simple développée avec **Sprin
 
 ## Prérequis
 
-- **Java 1.8**
+- **Java 1.8 ou superieur**
 - **MySQL** (Configurer les accès dans `application.properties`)
+- **Maven** 
 - **IDE** (IntelliJ IDEA, Eclipse, ou autre)
 
 ## Démarrage
