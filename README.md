@@ -57,18 +57,25 @@ Dans votre IDE, exécutez la classe DemothymeleafApplication. Une fois démarré
 
 ### 6. Points de terminaison
 
-*Ajouter un utilisateur :* GET /signup
-*Enregistrer un utilisateur :* POST /adduser
-*Mettre à jour un utilisateur :* GET /edit/{id}
-*Supprimer un utilisateur :* GET /delete/{id}
+`Ajouter un utilisateur :` GET /signup
+
+`Enregistrer un utilisateur :` POST /adduser
+
+`Mettre à jour un utilisateur :` GET /edit/{id}
+
+`Supprimer un utilisateur :` GET /delete/{id}
 
 ### 7. Interface utilisateur
+
 Les vues Thymeleaf suivantes sont implémentées :
 
 add-user.html : Formulaire d'ajout d'un nouvel utilisateur.
+
 update-user.html : Formulaire de mise à jour d'un utilisateur existant.
+
 index.html : Liste des utilisateurs.
-Dépendances et Plugins
+
+### Dépendances et Plugins : 
 Les plugins Maven pour la gestion et le démarrage de l'application Spring Boot :
 
 ```xml
@@ -80,4 +87,7 @@ Les plugins Maven pour la gestion et le démarrage de l'application Spring Boot 
 ```
 ## Auteurs et Licence
 Ce projet est développé dans le cadre d'un TP de démonstration avec Spring Boot et Thymeleaf.
+
+## Video demonstrative : 
+
 
